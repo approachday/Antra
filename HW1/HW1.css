@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  body {
+    background-color: #f2f2f2;
+    
+  }
+  
+
+  .container {
+    width: 45%;
+    margin: auto;
+    padding: 25px;
+    background-color: #fff;
+  }
+  
+
+  h1 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .information {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 13px;
+  }
+  
+
+  
+
+  input[type="basicinfo"],
+  input[type="password"]{
+    border: 1px solid #cccccced;
+    border-radius: 8px;
+    padding: 10px;
+    width: 47%;
+  }
+
+  input[type="contactinfo"]{
+    border: 1px solid #cccccced;
+    border-radius: 8px;
+    padding: 10px;
+    width: 100%;
+  }
+
+  input[type="warn"]{
+    padding: 10px;
+  }
+
+  input[type="checkbox"] {
+    border: 1px solid #cccccced;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+
+  .iagree {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px; 
+    margin-top: 20px;
+  }
+  
+  .iagree label {
+    font-size: 16px;
+    margin-left: 10px; 
+  }
+
+  .warning label{
+   font-size: 16px;
+   margin-left: 12px
+  }
+
+  .clickbutton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+
+  .clickbutton button[type="register"] {
+    width: 46%;
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 15px 35px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #5fa8d3;
+  }
+  
+  .clickbutton button[type="signin"] {
+    width: 46%;
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 15px 35px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #5fd374;
+  }
+
+ 
