@@ -1,0 +1,58 @@
+  .container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .inventory-container {
+    text-align: center;
+    padding: 15px 35px;
+  }
+  
+  .cart-container {
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    background-color: #9b993d;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 10px;
+  }
+  
+  .minus,
+  .plus,
+  .addCart,
+  .delete {
+    color: white;
+    background-color: #4f4f4f;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin: 0 10px;
+  }
+  
+  .shoppingCart {
+    text-align: center;
+
+  }
+  
+  .checkOutButton {
+    color: white;
+    
+    background-color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .fruit {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
